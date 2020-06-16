@@ -10,13 +10,50 @@
     <header class="main-header">
       <h1 class="main-header__title">ToDoリスト</h1>
     </header>
-    <article>
-      <div class="box">
-        <div class="box__item">
-          <h2 class="box__item-title">List</h2>
+    <section class="main-content">
+      <section class="main-content__section">
+        <div class="main-content__section--list">
+          <div class="main-content__section--list-header">
+            <h2 class="main-content__section--list-title">List</h2>
+          </div>
+          <div class="main-content__section--list-task-add">
+            <input
+              class="main-content__section--list-task-add-input"
+              type="text"
+            />
+            <button class="main-content__section--list-task-add-button">
+              <img
+                class="main-content__section--list-img-add"
+                src="img/add.svg"
+              />
+            </button>
+          </div>
+          <ul class="main-content__section--list-incomplete-tasks"></ul>
+          <ul class="main-content__section--list-completed-tasks"></ul>
         </div>
-        <div class="box__item--2"></div>
-      </div>
-    </article>
+      </section>
+      <section class="main-content__section">
+        <div class="main-content__section--list">
+          <div class="main-content__section--list-header">
+            <h2 class="main-content__section--list-title">List</h2>
+          </div>
+          <div class="main-content__section--list-task-add">
+            <input
+              class="main-content__section--list-task-add-input"
+              type="text"
+            />
+            <button class="main-content__section--list-task-add-button">
+              <img
+                class="main-content__section--list-img-add"
+                src="img/add.svg"
+              />
+            </button>
+          </div>
+          <ul class="main-content__section--list-incomplete-tasks"></ul>
+          <ul class="main-content__section--list-completed-tasks"></ul>
+        </div>
+      </section>
+    </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
