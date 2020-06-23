@@ -123,6 +123,7 @@ addList = (e) => {
     lists.push(thisList);
     localStorage.setItem("lists", JSON.stringify(lists));
   }
+  listInput.value = "";
 };
 
 createNewListElement = (listString, id) => {
